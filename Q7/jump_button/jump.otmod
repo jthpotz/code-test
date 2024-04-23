@@ -1,0 +1,7 @@
+Module
+  name: jump_buttom
+  description: Jumping Buttom
+  author: jthpotz
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()

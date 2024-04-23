@@ -1,0 +1,11 @@
+Window
+  id: jumpWindow
+  !text: tr('Jump Window')
+  size: 300 400
+  @onEscape: toggle()
+
+  Button
+    id: jumpButton
+    !text: tr('Jump!')
+    width: 60
+    @onClick: randomPosition()
