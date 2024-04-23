@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+    <!-- If spells.xml already exists, add below to the file inside the spells tag. -->
+    <instant group="attack" spellid="34" name="Ice Storm" words="frigo" level="1" mana="0" cooldown="0" groupcooldown="0" needlearn="0" script="attack/frigo.lua"> <!-- Use 'script="attack/frigo_random"' instead to get the randomized version of the spell. -->
+        <!-- spellid 34 is unused in TFS 1.4; if another spell has this id, change spellid to an unsed id. -->
+        <!-- Other spell requirements, such as level, mana, cooldowns, etc. can be set using the appropriate attributes. -->
+        <!-- If this file is "./spells.xml", the file for the spell should be placed in the location "./scripts/'script'" where 'script' is the value of the script attribute. -->
+        <!-- In the default server, since this is an attack spell, it would be placed in the folder "attack" with the other attack spells. -->
+		<vocation name="Druid" /> <!-- Other vocations can be added here as desired. -->
+		<vocation name="Elder Druid" />
+	</instant>
+</spells>
