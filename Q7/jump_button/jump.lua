@@ -17,7 +17,7 @@ buttonMoveDelay = 50 -- How long between each time the button moves (in ms).
 function init()
 
     -- This section is just to have a way to display the window.
-    displayButton = modules.client_topmenu.addRightGameToggleButton('displayButton', tr('Jump'), '/images/topbuttons/hotkeys', toggle)
+    displayButton = modules.client_topmenu.addRightGameToggleButton('displayButton', tr('Jump'), '/images/topbuttons/hotkeys', toggle) -- Uses the icon from the hotkeys button. Could be changed to any other image.
     displayButton:setOn(false)
     displayButton:show()
     -- =========
